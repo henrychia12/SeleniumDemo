@@ -41,6 +41,7 @@ public class BingTesting {
 		assertEquals("Selenium not found", "Selenium", bingSearchPage.getSearch());
 	}
 
+
 	@Ignore
 	@Test
 	public void drawName() throws InterruptedException {
